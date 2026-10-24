@@ -47,7 +47,7 @@ SELECT * FROM ogrenciler
 WHERE ogrenci_ad  ILIKE '%ay';   --ay  ile biten her şey
 
 SELECT * FROM ogrenciler
-WHERE ogrenci_ad  ILIKE '%yaz'; -- içinde yaz gecen her isim
+WHERE ogrenci_ad  ILIKE '%yaz%'; -- içinde yaz gecen her isim
 
 
 SELECT * FROM ogrenciler
